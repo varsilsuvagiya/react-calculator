@@ -16,6 +16,7 @@ function Calculator() {
     if (val === "x2") val = "^2";
     else if (val === "x3") val = "^3";
     else if (val === "3√") val = "^(1÷3)";
+    
     else if (val === "log") val = "log(";
 
     let str = input + val;
